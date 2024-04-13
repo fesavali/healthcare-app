@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* src/components/About.css */
+
+/* Container for the entire About section */
+.about-container {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 2rem;
+}
+
+/* Content area */
+.about-content {
+  max-width: 900px; /* Limit content width */
+  padding: 1rem;
+   /* Center text content */
+}
+
+/* Heading styles */
+.about-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Heading styles */
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+/* Paragraph styles */
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* List styles */
+.about-content ul {
+  font-weight: bold;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+/* Contact details */
+.about-content address {
+  font-style: normal;
+}
+
+/* Image area */
+.about-image {
+  max-width: 100%; /* Limit image width */
+  padding: 1rem;
+  text-align: center; /* Center the image horizontally */
+}
+
+/* Center the image vertically */
+.about-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* src/components/Contact.css */
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
